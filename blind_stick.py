@@ -19,8 +19,8 @@ audio_speed = 1
 max_range = 0.4  # meters
 
 # Light and vibrator
-light_pin = 17
-vibrator_pin = 12
+light_pin = 17 # pin 11
+vibrator_pin = 12 #pin 32
 
 # Setup GPIO mode
 GPIO.setmode(GPIO.BCM)
