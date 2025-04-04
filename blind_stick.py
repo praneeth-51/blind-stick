@@ -109,4 +109,5 @@ try:
 
 except KeyboardInterrupt:
     print("Stopped by user")
+finally:
     GPIO.cleanup()    # clean the gpio pins
